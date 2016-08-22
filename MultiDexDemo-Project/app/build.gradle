@@ -19,6 +19,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
 }
 
 dependencies {
@@ -86,4 +87,8 @@ dependencies {
     compile 'com.zhy:base-adapter:3.0.3'
     compile 'com.zhy:highlight:1.1.0'
     compile files('libs/httpmime.jar')
+    compile files('libs/apache-logging-log4j.jar')
+    compile files('libs/apache-tomcat-util.jar')
+    compile files('libs/ormlite-android-4.25.jar')
 }
+
